@@ -1,4 +1,4 @@
-const PubSub = require('../helpers/pub_sub.js');
+import {PubSub} from '../helpers/pub_sub.js';
 
 class InstrumentFamilyView {
 
@@ -49,4 +49,4 @@ class InstrumentFamilyView {
 
 }
 
-export default class {InstrumentFamilyView};
+export default InstrumentFamilyView;
